@@ -7,11 +7,19 @@
     <title>Document</title>
 
     <script>
-        var num = parseInt(prompt("Enter the value a: "));
-        if(num%2 == 0) alert("The number is Even");
-        else if(num%2==0) alert("The number is Odd");
-        else alert("You Enter the wrong Type of input");
-        
+        // var n = parseInt(prompt("Enter the value loop: "));
+        // for(var i=0; i<n; i++){
+            // var gender = prompt("Enter the Gender: ");
+            // if(gender == "Male" || gender == "male" || gender == "MALE") alert("Your gender is Male");
+            // else if(gender == "Female" || gender == "female" || gender == "FEMALE") alert("Your gender is Female");
+            // else if(gender == "Others" || gender == "others" || gender == "OTHERS") alert("Your Gender is Other");
+            // else alert("Wrong Input");
+        // }
+
+        var day = prompt("What day is it today??: ");
+        if(day == "Sunday" || day == "Monday" || day == "Tuesday" || day == "Saturday" || day == "Thursday" || day == "Wednesday") alert("Ok, today is "+day);
+        else if(day == "Friday"){ alert("No, today is not Friday. Today is Teddy Day"); document.write("No, today is not Friday. Today is Teddy Day");}
+        else alert("This day does not exist.");
     </script>
 
 </head>
